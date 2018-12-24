@@ -1,0 +1,202 @@
+
+.photo-overlay h3 {
+	font-size: 1.3em;
+	line-height: 1.25em;
+	margin-top: .85em;
+	margin-bottom: .5em;
+}
+.photo-overlay p {
+	font-size: .875em;
+	line-height: 1.4;
+	margin: 0 0 1.5em;
+}
+.contain {
+	width: 94.02985075%;
+	max-width: 1260px;
+	margin: auto;
+}
+
+.photo-container {
+	text-align: center;
+	margin-bottom: 25px;
+ }
+
+.photo {
+	position: relative;
+	line-height: 0;
+	overflow: hidden;
+}
+
+.photo-container img {
+ 	max-width: 100%;
+}
+
+
+.photo-overlay {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	display: flex; /* For centering text inside .photo-overlay */
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0, .5);
+}
+.photo-overlay h3 {
+	margin-top: 10px;
+}
+.slide .photo-overlay {
+	opacity: 1;
+	background: #345d88;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+		.contain {
+		padding: 0 1.225em 2.5em;
+	}
+	.photo-container {
+		width: 45%;
+		float: left;
+		margin-left: 2%;
+	}
+	div.absolute {
+    position: absolute;
+    margin-left: 10%;
+}
+div.absolute img{
+width: 100px;
+
+}
+ #about h2{
+	text-align: center;
+    }
+
+}
+@media (min-width: 769px) {
+	.contain {
+		padding: 0 2.25em 3em;
+	}
+	.photo-container {
+		width: 30%;
+		float: left;
+		margin-left: 2%;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) { 
+	.photo-container:nth-child(31n) {
+		margin-left: 0;
+		clear: left;
+	}
+}
+@media (min-width: 1025px) { 
+	.photo-container {
+		width: 17%;
+	}
+	.photo-container:nth-child(31n) {
+		margin-left: 0;
+		clear: left;
+	}
+}
+@media (min-width: 0px) and (max-width: 480px) {
+
+
+	#about li {
+    font-size: 16px;
+    margin-left: -15px;
+     }
+    #about h2{
+	text-align: center;
+    }
+
+}
+
+
+/* Contact */
+
+
+#wrapper a:hover {
+	color: rgba(0,0,0,0.7);
+}
+
+#wrapper p,a {
+	font-size: 18px;
+}
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 5%;
+
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../images/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../images/mail.jpg');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../images/twitter.jpg');
+}
+
+
+
+#wrapper h3 {
+	 margin: 0 0 1em 0;
+}
+
+
+@media screen and (min-width: 480px){
+
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+ 
+}
+
+@media (min-width: 480px) and (max-width: 550px) {
+
+ #secondary li {
+ 	margin-left: -22%;
+ }
+
+
+}
+
+
+@media screen and  (max-width: 660px){
+	#wrapper p,a {
+		font-size: 15px;
+	}
+
+
+
